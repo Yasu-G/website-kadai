@@ -1,0 +1,24 @@
+
+/* IndexページのみのNavi設定 */
+
+  /* header ******************************/
+  header {
+    position: absolute;
+    top: 0px;
+  }
+
+/* ナビゲーションのリンクの装飾設定 */
+  #menu-nav-pc>li> a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  #menu-nav-pc>li> a:link {color: #ffffff;}
+  #menu-nav-pc>li> a:visited {color: #ffffff;}
+  #menu-nav-pc>li> a:hover {color: #000000;}
+  #menu-nav-pc>li> a:active {color: #ffffff;}
+  
+  #menu-item-22 {
+    background-color: #0C4324;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }

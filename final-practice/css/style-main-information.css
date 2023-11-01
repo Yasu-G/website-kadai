@@ -1,0 +1,203 @@
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+/************************************************************/
+
+
+/* お知らせ ***********************************************************/
+
+  #information-frame {
+    margin: 80px 10% 50px 10%;
+    position: relative;
+    display: flex;
+  }
+  .posting-item {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #posting-right {
+    width: 40%;
+    margin:0 50px 0 50px;
+  }
+  .posting-title >a {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    line-height:1.2em;
+    text-decoration: none;
+  }
+  .posting-img {
+    width: 40%;
+  }
+  .posting-img >img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+  }
+  .posting-date {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .category-name {
+    text-align: center;
+    font-size: 14px;
+    padding:2px 10px;
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #468459;
+    border-radius: 5px;
+  }
+  /* ページネーション */
+  .wp-pagenavi {
+    text-align: center;
+    text-decoration: none;
+  } 
+  .wp-pagenavi span.current {
+  background-color: #468459;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 3px;
+  margin: 0 5px;
+}
+.wp-pagenavi > .page {
+  text-decoration: none;
+  color: #468459;
+  margin: 0 5px;
+}
+.wp-pagenavi > .extend {
+  color: #468459;
+}
+.wp-pagenavi > .last {
+  text-decoration: none;
+  color: #468459;
+}
+.wp-pagenavi > .first {
+  text-decoration: none;
+  color: #468459;
+}
+
+  /* サイドばー */
+  #category-items {
+    width: 20%;
+  }
+  #category-items >h3 {
+  color: #000000;
+  }
+  #category-items >div {
+    margin-top: 20px;
+  }
+  .cat-item {
+    list-style-type: none;
+  }
+  .cat-item >a {
+    font-size: 18px;
+    color: #000000;
+    line-height:2em;
+    text-decoration: none;
+  }
+}
+
+
+
+
+/* ********************************************************** */
+/* スマホの設定 */
+@media screen and (max-width: 767px){
+  /************************************************************/
+  
+  
+  /* お知らせ ***********************************************************/
+  
+  #information-frame {
+    margin: 80px 10% 50px 10%;
+    position: relative;
+  }
+  .posting-item {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #posting-right {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .posting-title >a {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    line-height:1.2em;
+    text-decoration: none;
+  }
+  .posting-img {
+    width: 100%;
+  }
+  .posting-img >img {
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+  }
+  .posting-date {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .category-name {
+    text-align: center;
+    font-size: 14px;
+    padding:2px 10px;
+    margin-left: 20px;
+    color: #ffffff;
+    background-color: #468459;
+    border-radius: 5px;
+  }
+  /* ページネーション */
+  .wp-pagenavi {
+    text-align: center;
+    text-decoration: none;
+  } 
+  .wp-pagenavi span.current {
+  background-color: #468459;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 3px;
+  margin: 0 5px;
+}
+.wp-pagenavi > .page {
+  text-decoration: none;
+  color: #468459;
+  margin: 0 5px;
+}
+.wp-pagenavi > .extend {
+  color: #468459;
+}
+.wp-pagenavi > .last {
+  text-decoration: none;
+  color: #468459;
+}
+.wp-pagenavi > .first {
+  text-decoration: none;
+  color: #468459;
+}
+
+  /* サイドばー */
+  #category-items {
+    width: 100%;
+    margin-top: 50px;
+  }
+  #category-items >h3 {
+  color: #000000;
+  }
+  #category-items >div {
+    margin-top: 20px;
+  }
+  .cat-item {
+    list-style-type: none;
+  }
+  .cat-item >a {
+    font-size: 18px;
+    color: #000000;
+    line-height:2em;
+    text-decoration: none;
+  }
+  }
+  
+  

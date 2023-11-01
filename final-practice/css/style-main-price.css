@@ -1,0 +1,241 @@
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+/************************************************************/
+
+/* コース・料金の設定 ***********************************************************/
+#course {
+  position: relative;
+  background-color: #FAFAFA;
+  width: 100%;
+  height: 750px;
+  text-align: center;
+  margin-top: 30px;
+}
+#course-title-box {
+  position: relative;
+  width: 100%;
+  height: 220px;
+}
+#course-title {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  line-height: 1.3em;
+}
+/* テーブル関係 */
+#course-table {
+  margin: 0px auto;
+}
+.course-img {
+  border-radius: 5%;
+  margin: 0 40px;
+}
+.list-name {
+  margin: 20px 0 10px 0;
+}
+.course-list {
+  text-align: left;
+  margin: 0 40px;
+  line-height: 2em;
+}
+  
+/* 保険診療 ***********************************************************/
+#insurance-table {
+  width: 74%;
+  margin:50px auto 50px 200px;
+  display: flex;
+  flex-direction: row-reverse; 
+}
+  #insurance-left {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+  }
+    #insurance-title {
+      font-size: 24px;
+      color: #1B9240;
+      line-height: 1.3em;
+    }
+    #insurance-message {
+      margin-top: 20px;
+      line-height: 1.5em;
+    }
+    #insurance-list {
+      margin: 50px 0 0 40px;
+      width: 100%;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+      line-height: 2.2em;
+    }
+  #insurance-img {
+    vertical-align: top;
+  }
+  .insurance-img {
+    width: 520px;
+    margin: 5px 0 50px 30px;
+    border-radius: 10%;
+  }
+
+  /* 自費診療 ***********************************************************/
+#selfpay-table {
+  width: 74%;
+  margin:50px auto 50px 200px;
+  display: flex;
+}
+  #selfpay-left {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+  }
+    #selfpay-title {
+      font-size: 24px;
+      color: #1B9240;
+      line-height: 1.3em;
+    }
+    #selfpay-message {
+      margin-top: 20px;
+      line-height: 1.5em;
+    }
+    #selfpay-list {
+      margin: 50px 0 0 40px;
+      width: 100%;
+      font-size: 16px;
+      letter-spacing: 0.2em;
+      line-height: 2.2em;
+    }
+    #selfpay-cost {
+      margin-top: 50px;
+      line-height: 1.5em;
+    }
+  #selfpay-img {
+    vertical-align: top;
+  }
+  .selfpay-img {
+    width: 520px;
+    margin: 5px 0 50px 30px;
+    border-radius: 10%;
+  }
+
+}
+
+
+
+
+
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (max-width: 767px){
+  /************************************************************/
+  
+  /* コース・料金の設定 ***********************************************************/
+  #course {
+    position: relative;
+    background-color: #FAFAFA;
+    width: 100%;
+    text-align: center;
+    margin: 30px auto 0 auto;
+  }
+  #course-title-box {
+    position: relative;
+    width: 100%;
+    height: 220px;
+  }
+  #course-title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.3em;
+  }
+  /* テーブル関係 */
+  #course-table {
+    margin: 0px auto;
+  }
+  #course-table tr td {
+    display: block;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .course-img {
+    width: 100%;
+    border-radius: 5%;
+    margin: 0 auto;
+  }
+  .list-name {
+    margin: 20px 0 10px 0;
+  }
+  .course-list {
+    text-align: left;
+    margin: 0 40px;
+    line-height: 2em;
+  }
+    
+  /* 保険診療 ***********************************************************/
+  #insurance-table {
+    width: 90%;
+    margin:50px auto 50px auto;
+  }
+
+    #insurance-left {
+      width: 100%;
+    }
+      #insurance-title {
+        font-size: 24px;
+        color: #1B9240;
+        line-height: 1.3em;
+      }
+      #insurance-message {
+        margin-top: 20px;
+        line-height: 1.5em;
+      }
+      #insurance-list {
+        padding: 50px 0 0 40px;
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        line-height: 2.2em;
+      }
+
+    .insurance-img {
+      width:  100%;
+      margin: 5px 0 50px 0;
+      border-radius: 10%;
+    }
+  
+    /* 自費診療 ***********************************************************/
+  #selfpay-table {
+    width: 90%;
+    margin:50px auto 50px auto;
+  }
+    #selfpay-left {
+      width: 100%;
+    }
+      #selfpay-title {
+        font-size: 24px;
+        color: #1B9240;
+        line-height: 1.3em;
+      }
+      #selfpay-message {
+        margin-top: 20px;
+        line-height: 1.5em;
+      }
+      #selfpay-list {
+        padding: 50px 0 0 40px;
+        width: 100%;
+        font-size: 16px;
+        letter-spacing: 0.2em;
+        line-height: 2.2em;
+      }
+      #selfpay-cost {
+        margin-top: 50px;
+        line-height: 1.5em;
+      }
+    .selfpay-img {
+      width: 100%;
+      margin: 5px 0 50px 0;
+      border-radius: 10%;
+    }
+  
+  }

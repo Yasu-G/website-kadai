@@ -1,0 +1,81 @@
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+  /************************************************************/
+
+#thanks {
+  width: 100%;
+}
+#thanks-box {
+  width: 70%;
+  margin: 100px auto 100px auto;
+  padding: 50px 50px 0px 50px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+}
+#thanks-box >h3 {
+  line-height: 50px;
+}
+#thanks-box >p {
+  line-height: 50px;
+}
+#thanks-box >a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding:15px 120px 15px 120px;
+  background-color: #1B9240;
+  border: none;
+  border-radius: 5px;
+  line-height: 100px;
+}
+  #thanks-box >a:link {color: #ffffff;}
+  #thanks-box >a:visited {color: #ffffff;}
+  #thanks-box >a:hover {color: #000000;}
+  #thanks-box >a:active {
+    color: #ffffff;
+    background-color: darkgreen;
+  }
+
+}
+
+/* ********************************************************** */
+/* スマホの設定 */
+@media screen and (max-width: 767px){
+  /************************************************************/
+
+#thanks {
+  width: 100%;
+}
+#thanks-box {
+  width: 90%;
+  margin: 100px auto 100px auto;
+  padding: 50px 50px 0px 50px;
+  text-align: center;
+  border: 1px solid #CCCCCC;
+}
+#thanks-box >h3 {
+  line-height: 50px;
+}
+#thanks-box >p {
+  line-height: 30px;
+}
+#thanks-box >a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding:15px 100px 15px 100px;
+  background-color: #1B9240;
+  border: none;
+  border-radius: 5px;
+  line-height: 100px;
+}
+  #thanks-box >a:link {color: #ffffff;}
+  #thanks-box >a:visited {color: #ffffff;}
+  #thanks-box >a:hover {color: #000000;}
+  #thanks-box >a:active {
+    color: #ffffff;
+    background-color: darkgreen;
+  }
+
+}

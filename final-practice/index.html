@@ -1,0 +1,343 @@
+<!--*****************************
+  # 整骨院Web ページ構成
+  - トップページ (index.html#top)
+  - 当院について (about.html)
+  - コース・料金 (course.html)
+  - お知らせ (news.html)
+  - お知らせ詳細 (page-name.html)
+  - お客様の声 (voice.html)
+  - ご予約・お問合せサンクスページ (contact-thanks.html)  
+    
+  # トップページ 構成
+  - header
+  - ホーム (id="home")
+  - お知らせ (id="news")
+  - Concept (id="about")
+  - コース料金 (id="course")
+  - お客様の声 (id="voice")
+  - アクセス (id="access") 
+  - footer (id="footer")
+*****************************-->
+
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <title>SAMURAI整体院</title>
+  <meta name="description" content="SAMURAI整体院の紹介ページです">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- フォントの読み込み -->
+    <!-- Shippori Mincho -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
+    <!--  Merriweather Sans -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather+Sans&family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
+    <!-- Noto Sans JP -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Merriweather+Sans&family=Noto+Sans+JP&family=Shippori+Mincho:wght@600&display=swap" rel="stylesheet">
+
+  <!-- slickの読み込み -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+      <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+
+</head>
+<body>
+
+  <!--header nav**********************************************************-->
+  <header>
+        <img id="logo" src="img/Frame 2259.png" alt="logo">
+      <nav id="nav-pc">
+        <a href="#home">ホーム </a>
+        <a href="about.html">当院について </a> 
+        <a href="price.html">コース・料金 </a> 
+        <a href="news.html">お知らせ </a>
+        <a href="voice.html">お客様の声 </a>
+        <a id="reservation" href="contact-thanks.html">ご予約・お問合せ </a>
+      </nav>
+  </header>
+  
+  <main>
+  <article>
+<!--ホーム**********************************************************-->
+  <section id="home">
+    <!-- カーセル：TOP-CarouselGroup1-4、SP-TOP-CarouselGroup1-4 -->
+    <h1 id="tate-message" >根本的な症状改善を<br>サポートします</h1>
+    <div id="top-img-div" >
+      <img id="top-img" src="img/TOP-Carouselgroup1.jpg" alt="TOP-Carouselgroup">
+    </div>
+    <div id="back-img"></div>
+    <img id="back-green01" src="img/x31_7.png" alt="back-green01">
+    <img id="back-green02" src="img/x32_1.png" alt="back-green02">
+  </section>
+
+<!--お知らせ**********************************************************-->
+  <section id="news">
+    <div id="news-sec01">
+      <span id="news01">News</span>
+      <span id="news02">お知らせ</span>
+      </div>
+    <div id="news-sec02">
+      <span id="news03">日時</span>
+      <span id="news04">営業日時</span>
+      <span id="news05">年末年位の営業日について</span>
+    </div>
+    <div id="news-link">
+      <a href="news.html">-> お知らせ一覧へ</a>
+    </div>
+  </section>
+
+<!-- コンセプト・特徴 **********************************************************-->
+  <!-- <section id="about">
+    <h1 id="about-h1back">Concept</h1>
+    <img id="about-bigicon" src="img/BGicon_Light.png" alt="BGicon_Light">
+      <table id="about-table">
+        <tr><td id="about-left">
+          <div>
+            <p id="about-title">
+              <img src="img/BGicon.png" alt="about-title-img">
+              <span>Concept<br>特徴</span>
+            </p>
+            <h2 id="about-message">日々変化する<br>カラダと心を癒す<br>パーソナル<br>トレーナーとして</h2>
+            <p id="about-comment" >
+              当院では、問診にてお客様の症状や生活スタイル、ご希望を丁寧にお伺いした上で施術方針を立てていきます。
+              <br><br>また、根本的に症状を改善するために、お客様ご自身で行えるケアやストレッチもお伝えします。
+              <br><br> ご不安な点や疑問点などお気軽にご相談くださいませ。</p>
+            <div id="about-link" class="links" >
+              <a href="about.html">-> 当院について</a>
+            </div>
+          </div> 
+        </td>
+        <td id="about-img" >
+          <img class="about-img" src="img/Group 2126.png">
+        </td></tr>
+      </table>
+  </section> -->
+
+  <section id="about">
+    <h1 id="about-h1back">Concept</h1>
+    <img id="about-bigicon" src="img/BGicon_Light.png" alt="BGicon_Light">
+      <div id="about-table">
+        <div>
+          <div id="about-img" >
+            <img class="about-img" src="img/Group 2126.png">
+          </div>
+          <div id="about-left">
+          <div>
+            <p id="about-title">
+              <img src="img/BGicon.png" alt="about-title-img">
+              <span>Concept<br>特徴</span>
+            </p>
+            <h2 id="about-message">日々変化する<br>カラダと心を癒す<br>パーソナル<br>トレーナーとして</h2>
+            <p id="about-comment" >
+              当院では、問診にてお客様の症状や生活スタイル、ご希望を丁寧にお伺いした上で施術方針を立てていきます。
+              <br><br>また、根本的に症状を改善するために、お客様ご自身で行えるケアやストレッチもお伝えします。
+              <br><br> ご不安な点や疑問点などお気軽にご相談くださいませ。</p>
+            <div id="about-link" class="links" >
+              <a href="about.html">-> 当院について</a>
+            </div>
+          </div> 
+        </div>
+      </div>
+      </div>
+  </section>
+
+<!-- wave 1**********************************************************--> 
+  <section id="wave">
+    <div id="green-circle"></div>
+    <div id="green2-circle"></div>
+    <div id="white-circle"></div>
+    <div id="white2-circle"></div>
+    <div id="white-back"></div>
+    <div id="green-back"></div>
+  </section>
+
+<!-- コース・料金 **********************************************************--> 
+  <section id="course">
+    <div id="back-color"></div>
+    <img class="bgicon" src="img/BGicon_Green.png" alt="BGicon_Green">
+    <h1 id="h1-back">course</h1>
+    <h3>
+      <img src="img/Frame 2122.png">
+      <span> コース・料金</span>
+      <img src="img/Frame 2564.png">
+    </h3>
+    <h3><br>当院では保険診療、自費診療<br>ともにご対応しております</h3>
+    <table id="course-table">
+      <tr>
+        <td>
+          <img class="course-img" src="img/TOP-insurance1.jpg" alt="保険診療写真">
+          <div class="course-list">
+            <h3 class="dark-green list-name">保険診療</h3>
+            <ul>
+              <li>骨折・打撲・捻挫・脱臼</li>
+              <li>スポーツ診療</li>
+              <li>交通事故</li>
+            </ul>
+          </div>
+        </td>
+        <td>
+          <img class="course-img" src="img/TOP-self1.jpg" alt="自賠責診療写真">
+          <div class="course-list">
+            <h3 class="dark-green list-name">自賠責診療</h3>
+            <ul>
+              <li>腰痛・肩こり</li>
+              <li>冷え性・だるさ</li>
+              <li>骨盤・背骨矯正</li>
+            </ul>
+          </div>
+        </td>
+      </tr>
+    </table>
+
+    <div id="course-link" class="links">
+      <a href="course.html">-> コース・料金詳細へ</a>
+    </div>
+  </section>
+
+<!-- お客様の声  **********************************************************-->
+  <section id="voice">
+    <img  id="bottom-img" src="img/Bottom-Carouselgroup1.jpg" alt="Bottom-img">
+    <div id="voice-title-box">
+      <div id="voice-title">
+        <h3>
+          <img src="img/Frame 2122.png">
+          <span>お客様の声</span>
+          <img src="img/Frame 2564.png">
+        </h3>
+        <h3><br>痛みの改善に加えて自分で予防も<br>できるようになりました</h3>
+      </div>
+    </div>
+    <table id="voice-table">
+      <tr>
+        <td class="voice-table-items">
+          <img class="voice_img" src="img/TOP-user1.jpg" alt="S・K様写真">
+          <h3 class="dark-green">S・K様 30代女性</h3>
+          <p>1ヶ月で腰の痛みが軽減しました。
+            自分で自宅でできるケアも教えていただき、お任せしてよかったです。</p>
+        </td>
+        <td class="voice-table-items">
+          <img class="voice_img" src="img/TOP-user2.jpg" alt="T・M様写真">
+          <h3 class="dark-green">T・M様 40代男性</h3>
+          <p>マラソンで右膝が痛むので、施術を受けています。
+              なぜ痛みが生じるのかを身体の仕組みから教えていただき、
+              普段の練習メニューも工夫できています。</p>
+        </td>
+        <td class="voice-table-items">
+          <img class="voice_img" src="img/TOP-user3.jpg" alt="S・T様写真">
+          <h3 class="dark-green"> S・T様 60代女性</h3>
+          <p>転倒して足を骨折したのをきっかけに、
+            痛みの軽減と筋肉の衰えを防ぐための方針を立てていただいています。
+            今は毎日元気に近所を散歩できています。</p>
+        </td>
+      </tr>
+    </table>
+    <div id="voice-link" class="links">
+      <a href="voice.html">-> お客様の声一覧へ </a> 
+    </div>
+  </section>
+
+  <!-- wave 2**********************************************************--> 
+  <section id="wave">
+    <div id="green-circle"></div>
+    <div id="green2-circle"></div>
+    <div id="white-circle"></div>
+    <div id="white2-circle"></div>
+    <div id="white-back"></div>
+    <div id="green-back"></div>
+  </section>
+
+<!-- アクセス **********************************************************--> 
+  <section id="access"> 
+    
+    <div id="access-title-box">
+      <h3 id="access-title">
+        <img src="img/Frame 2122.png">
+        <span>お気軽にご来院ください</span>
+        <img src="img/Frame 2564.png">
+      </h3>
+    </div>
+
+    <table id="access-table">
+      <tr>
+        <td id="access-left">
+          <h3 class="access-left-info">JR「秋葉原駅」より徒歩1分</h3>
+          <p class="access-left-info">
+            〒101-0022　東京都千代田区神田練塀町300番地
+            <br>住友不動産秋葉原駅前ビル 5F
+          </p>
+          <h3 class="access-left-info">tel: 03-1234-5678</h3>
+          <table id="access-schedule" class="access-left-info">
+            <tr>
+              <th>営業時間</th>
+              <th>月</th>
+              <th>火</th>
+              <th>水</th>
+              <th>木</th>
+              <th>金</th>
+              <th>土</th>
+              <th>日</th>
+            </tr>
+            <tr>
+              <td class="access-time">9:00〜12:30</td>
+              <td>●</td>
+              <td>●</td>
+              <td>-</td>
+              <td>●</td>
+              <td>●</td>
+              <td>●</td>
+              <td>●</td>
+            </tr>
+            <tr>
+              <td class="access-time">9:00〜12:30</td>
+              <td>●</td>
+              <td>●</td>
+              <td>-</td>
+              <td>●</td>
+              <td>●</td>
+              <td>●</td>
+              <td>●</td>
+            </tr>
+          </table>
+          <div id="access-link">
+            <a href="contact-thanks.html">ご予約・お問合せはこちらから</a> 
+          </div>
+        </td>
+        <td>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.06039488223!2d139.77214334089803!3d35.70013137269525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea7ba1a054d%3A0x81605e8b12064e47!2z44CSMTAxLTAwMjIg5p2x5Lqs6YO95Y2D5Luj55Sw5Yy656We55Sw57e05aGA55S6MzAw55Wq5Zyw!5e0!3m2!1sja!2sjp!4v1696363755519!5m2!1sja!2sjp" width="510" height="420" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </td>  
+      </tr>
+    </table>
+  </section>
+  </article>
+  </main>
+  <footer>
+    <div id="footer-nav">
+      <img id="logo" src="img/Frame 2259.png" alt="logo">
+      <nav id="footer-nav-pc">
+        <a href="#home">ホーム </a>
+        <a href="about.html">当院について </a> 
+        <a href="price.html">コース・料金 </a> 
+        <a href="news.html">お知らせ </a>
+        <a href="voice.html">お客様の声 </a>
+        <a href="contact-thanks.html">ご予約・お問合せ </a>
+      </nav>
+    </div>
+    <p id="footer-bottom">©︎2023 SAMURAI整体院</p>
+  </footer>
+
+  <!-- jQuery設定 -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <!-- slickの読み込み -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>

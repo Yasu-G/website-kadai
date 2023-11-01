@@ -1,0 +1,237 @@
+/* rest css入れる方がいい */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+/************************************************************/
+
+/* フォント設定 ***************************** */
+h2{
+  font-family: "Noto Sans CJK JP";
+  font-size: 32px;
+  color: #468459;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+h3 {
+  font-family: "Noto Sans CJK JP";
+  font-size: 24px;
+  color: #468459;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.dark-green {
+  color: #0C4324;
+}
+p{
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+/* Body ***************************** */
+body {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1280px;
+    min-width: 375px;
+  }
+  main {
+    position: relative;
+  }
+  /* header ******************************/
+  header {
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  #logo {
+    left: 0;
+  }
+  #nav-pc{
+    display: flex;
+    /* color: #0C4324; */
+    align-items: center;
+    justify-content: space-around;
+  }
+  #menu-nav-pc> {
+    padding: 0;
+  }
+  #menu-nav-pc >li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+  }
+  #menu-sp {
+    display: none;
+  }
+  #nav-sp {
+    display: none;
+  }
+
+/* ナビゲーションのリンクの装飾設定 */
+#menu-nav-pc>li> a {
+    text-decoration: none;
+  }
+  #menu-nav-pc>li> a:link {color: #0C4324;}
+  #menu-nav-pc>li> a:visited {color:#0C4324;}
+  #menu-nav-pc>li> a:hover {color: #000000;}
+  #menu-nav-pc>li> a:active {color:#0C4324;}
+
+#menu-item-22 > a {
+    background-color: #0C4324;
+    color: #ffffff !important;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+  #menu-item-22> a:link {color: #ffffff !important;}
+  #menu-item-22> a:visited {color:#ffffff !important;}
+  #menu-item-22> a:hover {color: #000000 !important;}
+  #menu-item-22> a:active {color:#EBF0DC !important;}
+}
+
+
+
+
+
+/* ********************************************************** */
+/* スマホの設定 */
+@media screen and (max-width: 767px){
+/************************************************************/
+/* フォント設定 ***************************** */
+h2{
+  font-family: "Noto Sans CJK JP";
+  font-size: 24px;
+  color: #468459;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+}
+h3 {
+  font-family: "Noto Sans CJK JP";
+  font-size: 24px;
+  color: #468459;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.dark-green {
+  color: #0C4324;
+}
+p{
+  font-family: "Noto Sans JP";
+  font-size: 16px;
+  color: black;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+}
+
+/* Body ***************************** */
+  body {
+    position: relative;
+    margin: 0 auto;
+    min-width: 375px;
+    width: 100%;
+  }
+  main {
+    position: relative;
+    width: 100%;
+  }
+  /* header ******************************/
+  header {
+    position: absolute;
+    width: 100%;
+    flex-wrap: nowrap;
+    display: flex;
+    z-index: 10;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  #logo {
+    width: 50%;
+  }
+  #nav-pc{
+    display: none;
+  }
+
+  /* ***************************** */
+  /* ***************************** */
+/* ハンバーガーメニュー */
+    /* スマホ用ナビゲーションの表示切替*/
+    /* 初期状態、レイアウトと非表示設定 */
+#nav-sp {
+      background-color: #ffffff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      width: 100%;
+      display: none;
+      z-index: 100;
+  }
+  #nav-sp >div {
+    padding: 10px 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #nav-sp >h3 {
+    margin: 50px 30px 0px 30px;
+  }
+
+  #nav-sp >div>ul {
+    margin: 30px 30px 0 30px;
+    width: 100%;
+  }
+  #nav-sp >div>ul >li{
+    display: block;
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    line-height: 35px;
+  }
+
+  /* ナビゲーションのリンクの装飾設定 */
+  #nav-sp >div>ul >li> a {
+      display: block;
+      text-decoration: none;
+      color: #000000;
+  }
+  #nav-sp >div>ul >li> a:link {color: #000000;}
+  #nav-sp >div>ul >li> a:visited {color: #000000;}
+  #nav-sp >div>ul >li> a:hover {color: #000000;}
+  #nav-sp >div>ul >li> a:active {color: #000000;}
+
+  #nav-sp >div>ul >.menu-item-22{
+    margin: 0 auto;
+  }
+
+  #nav-sp >div>ul >.menu-item-22> a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: #0C4324;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+  #nav-sp >div>ul >.menu-item-22> a:link {color: #ffffff ;}
+  #nav-sp >div>ul >.menu-item-22> a:visited {color:#ffffff ;}
+  #nav-sp >div>ul > .menu-item-22> a:hover {color: #000000 ;}
+  #nav-sp >div>ul >.menu-item-22> a:active {color:#EBF0DC ;}
+}
+
+

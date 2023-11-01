@@ -1,0 +1,121 @@
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+/************************************************************/
+
+/* お客様の声一覧 ***********************************************************/
+
+#voice-list {
+  margin-top: 100px;
+}
+
+.voice-item {
+  display: flex;
+  margin: 50px 200px 50px 150px;
+  align-items: center;
+}
+.voice-img >img {
+  border-radius: 50%;
+}
+.voice-comment {
+  margin-left: 50px;
+}
+.voice-comment >p {
+  margin-top: 20px;
+}
+  /* ページネーション */
+  .wp-pagenavi {
+    text-align: center;
+    text-decoration: none;
+  } 
+  .wp-pagenavi span.current {
+  background-color: #468459;
+  color: #ffffff;
+  text-align: center;
+  padding: 0 3px;
+  margin: 0 5px;
+}
+.wp-pagenavi > .page {
+  text-decoration: none;
+  color: #468459;
+  margin: 0 5px;
+}
+.wp-pagenavi > .extend {
+  color: #468459;
+}
+.wp-pagenavi > .last {
+  text-decoration: none;
+  color: #468459;
+}
+.wp-pagenavi > .first {
+  text-decoration: none;
+  color: #468459;
+}
+
+
+
+}
+
+/* ********************************************************** */
+/* スマホの設定 */
+@media screen and (max-width: 767px){
+  /************************************************************/
+  
+  /* お客様の声一覧 ***********************************************************/
+  
+  #voice-list {
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+  }
+  .pagination {
+    width: 100%;
+  }
+  .list-box {
+    width: 100%;
+  }
+  
+  .voice-item {
+    margin: 50px 0px 50px 0px;
+    align-items: center;
+  }
+  .voice-img >img {
+    border-radius: 50%;
+  }
+  .voice-comment {
+    margin:10px 5%;
+  }
+  .voice-comment >p {
+    margin-top: 20px;
+  }
+    /* ページネーション */
+    .wp-pagenavi {
+      text-align: center;
+      text-decoration: none;
+    } 
+    .wp-pagenavi span.current {
+    background-color: #468459;
+    color: #ffffff;
+    text-align: center;
+    padding: 0 3px;
+    margin: 0 5px;
+  }
+  .wp-pagenavi > .page {
+    text-decoration: none;
+    color: #468459;
+    margin: 0 5px;
+  }
+  .wp-pagenavi > .extend {
+    color: #468459;
+  }
+  .wp-pagenavi > .last {
+    text-decoration: none;
+    color: #468459;
+  }
+  .wp-pagenavi > .first {
+    text-decoration: none;
+    color: #468459;
+  }
+
+
+  }

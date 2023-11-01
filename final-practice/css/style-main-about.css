@@ -1,0 +1,289 @@
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+
+/* コンセプトの設定 ***********************************************************/
+  #about {
+    width: 100%; 
+    height: 700px;
+    position: relative;
+  }
+  #about-bigicon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    z-index: -1;
+  }
+  #about-h1back{
+    position: absolute;
+    font-size: 133.94px;
+    font-family: "Merriweather Sans";
+    color: #f7f9f7;
+    ;
+    top: 8%;
+    left: 5%;
+    z-index: -2;
+  }
+  #about-table {
+    width: 68%;
+    margin:120px auto;
+    display: flex;
+    flex-direction: row-reverse; 
+  }
+  #about-left {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+  }
+  #about-title {
+    font-size: 24px;
+    color: #1B9240;
+    line-height: 1.2em;
+  }
+  #about-message {
+    margin-top: 20px;
+    line-height: 1.8em;
+  }
+  #about-comment {
+    margin-top: 20px;
+  }
+  #about-img {
+    vertical-align: top;
+  }
+  .about-img {
+    margin: 5px 0 50px 80px;
+  }
+  
+/* 施術の流れの設定 ***********************************************************/
+#flow {
+  width: 100%; 
+  height: 700px;
+  position: relative;
+}
+#flow-bigicon {
+  position: absolute;
+  z-index: -1;
+  bottom: 0px;
+  right: 0px;
+}
+#flow-h1back{
+  position: absolute;
+  font-size: 133.94px;
+  font-family: "Merriweather Sans";
+  color: #f7f9f7;
+  ;
+  top: 8%;
+  left: 5%;
+  z-index: -2;
+}
+#flow-table {
+  width: 68%;
+  margin:120px auto;
+  display: flex;
+  flex-direction: row-reverse; 
+}
+  #flow-left {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+  }
+    #flow-title {
+      font-size: 24px;
+      color: #1B9240;
+      line-height: 1.2em;
+    }
+    #flow-list {
+      position: absolute;
+      top: 30%;
+      width: 100%;
+      font-size: 16px;
+      letter-spacing: 0.5em;
+    }
+  #flow-img {
+    vertical-align: top;
+    margin: 5px 0 50px 80px;
+  }
+
+
+/* 根本改善のポイントの設定 ***********************************************************/
+  #treatment {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  #treatment-title {
+    margin-top: 80px;
+  }
+  #treatment-title >h3 {
+    line-height: 1.5em;
+  }
+  /* テーブル内設定 */
+  #treatment-table {
+    width: 90%;
+    margin: 70px auto 30px auto;
+  }
+  .treatment-table-items {
+    vertical-align: top;
+  }
+  .treatment_img {
+    border-radius: 10%;
+  }
+  .treatment-table-items > h3 {
+    margin: 30px 0;
+  }
+  .treatment-table-items > p {
+    text-align: left;
+    margin: 0 40px;
+  }
+  #treatment-link {
+    margin: 80px auto 50px auto;
+  }
+
+}
+
+
+
+
+/* ********************************************************** */
+/* スマホの設定 */
+@media screen and (max-width: 767px){
+
+  /* コンセプトの設定 ***********************************************************/
+    #about {
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      overflow:hidden;
+    }
+    #about-bigicon {
+      position: absolute;
+      bottom: 0px;
+      right: -130px;
+      z-index: -1;
+    }
+    #about-h1back{
+      position: absolute;
+      font-size: 72px;
+      font-family: "Merriweather Sans";
+      color: #f7f9f7;
+      top: 50%;
+      left: -3%;
+      z-index: -2;
+    }
+    #about-table {
+      width: 90%;
+      margin:70px auto;
+    }
+    #about-left {
+      position: relative;
+      vertical-align: top;
+      width: 100%;
+    }
+    #about-title {
+      font-size: 24px;
+      color: #1B9240;
+      line-height: 1.2em;
+    }
+    #about-message {
+      margin-top: 20px;
+      line-height: 1.8em;
+      width: 100%;
+    }
+    #about-comment {
+      padding: 20px 0 50px 0;
+    }
+    #about-img {
+      vertical-align: top;
+    }
+    .about-img {
+      width: 100%;
+      margin: 5px 0 50px 0px;
+    }
+    
+  /* 施術の流れの設定 ***********************************************************/
+  #flow {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    overflow:hidden;
+  }
+  #flow-bigicon {
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+    right: -130px;
+  }
+  #flow-h1back{
+    position: absolute;
+    font-size: 72px;
+    font-family: "Merriweather Sans";
+    color: #f7f9f7;
+    top: 50%;
+    left: -3%;
+    z-index: -2;
+  }
+  #flow-table {
+    width: 100%;
+    margin:70px auto;
+  }
+    #flow-img {
+      vertical-align: top;
+      margin: 5px auto 50px auto;
+    }
+    #flow-left {
+      width: 100%;
+    }
+        #flow-title {
+          font-size: 24px;
+          color: #1B9240;
+          line-height: 1.2em;
+        }
+        #flow-list {
+          width: 100%;
+          margin-top: 50px;
+          font-size: 16px;
+          padding-left: 20px;
+          /* letter-spacing: 0.5em; */
+          line-height: 3em;
+          list-style-type: decimal;
+        }
+
+  
+  
+  /* 根本改善のポイントの設定 ***********************************************************/
+    #treatment {
+      position: relative;
+      width: 80%;
+      margin: 0 auto;
+      text-align: center;
+    }
+    #treatment-title {
+      margin-top: 80px;
+    }
+    #treatment-title >h3 {
+      line-height: 1.5em;
+    }
+    /* テーブル内設定 */
+    #treatment-table {
+      width: 100%;
+      margin: 70px auto 30px auto;
+    }
+    .treatment-table-items {
+      display: block;
+      width: 100%;
+    }
+    .treatment_img {
+      border-radius: 10%;
+    }
+    .treatment-table-items > h3 {
+      margin: 30px 0;
+    }
+    .treatment-table-items > p {
+      text-align: left;
+      margin: 0 40px;
+    }
+    #treatment-link {
+      margin: 80px auto 50px auto;
+    }
+  
+  }

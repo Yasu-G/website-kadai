@@ -1,0 +1,363 @@
+/*
+Theme Name: KADAI FINAL
+Theme URI: https://www.sejuku.net/
+Description: SAMURAI ENGINEERのKadai final
+Version: 1.0.0
+Author: SAMURAI ENGINEER
+Author URI: https://www.sejuku.net/
+*/
+
+
+/* rest css入れる方がいい */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+/************************************************************/
+
+/* ホーム ***********************************************************/
+#home {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 600px;
+}
+#tate-message {
+  position: absolute;
+  writing-mode: vertical-rl;
+  top: 25%;
+  left: 8%;
+  font-family: "Shippori Mincho";
+  font-size: 28px;
+  color: #1B9240;
+  text-decoration:underline dotted;
+  line-height:60px;
+  letter-spacing: 0.3em;
+  z-index: 11;
+}
+#top-img-pc {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  clip-path: circle(970px at 100% 30%);
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+#top-img-sp {
+  display: none;
+}
+#back-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: 100%;
+  background-color: #F0F5E1;
+  clip-path: circle(700px at 70% 30%);
+  z-index: -2;
+}
+#back-green01 {
+  position: absolute;
+  z-index: 0;
+  top: 10%;
+  left: 10%;
+}
+#back-green02 {
+  position: absolute;
+  z-index: 0;
+  top: 55%;
+  left: 30px;
+}
+
+/* .carousel Slickの設定 ******************************/
+.slick-list {
+  height: 100%;
+}
+/* Slickの位置を変える */
+.slick-dots {
+  bottom: 15%!important;
+  text-align: right;
+  padding-right: 10%;
+}
+/* Slickの大きさ、色を変える */
+.slick-dots li {
+  width: 30px!important;
+  height: 10px!important;
+  margin: 0!important;
+  background-color: #ffffff;
+}
+  /*Slickドットを変える */
+.slick-dots li button::before {
+  width: 100% !important;
+  height: 100% !important;
+  content: "" !important;
+}
+/* Slickがアクティブなものの設定 */
+.slick-dots li.slick-active button::before {
+  width: 100% !important;
+  height: 100% !important;
+  background-color: #0C4324;
+}
+  /* ニュースの設定***********************************************************/
+  #news {
+    position: relative;
+    width: 94%;
+    margin: 18px auto 0 auto;
+    display: flex;
+    font-family: "Noto Sans JP";
+    align-items: center;
+    justify-content: space-between;
+  }
+  #news-sec01 {
+    display: flex;
+    align-items: baseline;
+  }
+  #news-sec02{
+    display: flex;
+    align-items: center;
+    margin-right: 15%;
+  }
+  #news-sec02 >div{
+    display: flex;
+  }
+
+    /* ナビゲーションのリンクの装飾設定 */
+    #news-link > a {text-decoration: none;}
+    #news-link > a:link {color: #000000;}
+    #news-link > a:visited {color:  #000000;}
+    #news-link > a:hover {color: #0C4324;}
+    #news-link > a:active {color:  #000000;}
+
+  #news01{
+    margin-left: 0px;
+    font-size: 24px;
+    color: #1B9240;
+    font-weight: bold;
+  }
+  #news02{
+    margin-left: 0.5em;
+    font-size: 18px;
+    color: #1B9240;
+  }
+  #news03{
+    margin-left: 2em;
+    font-size: 16px;
+    color: #000000;
+    padding: 0.3em 0;
+  }
+  #news04{
+    margin-left: 1em;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #0C4324;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px;
+  }
+  #news05 {
+    margin-left: 1em;
+    font-size: 16px;
+    color: #000000;
+    padding: 5px 0;
+  }
+
+/* コンセプトの設定 ***********************************************************/
+  #about {
+    width: 100%; 
+    /* height: 700px; */
+    position: relative;
+  }
+  #about-bigicon {
+    position: absolute;
+    z-index: -1;
+    bottom: 20px;
+    right: 0px;
+  }
+  #about-h1back{
+    position: absolute;
+    font-size: 133.94px;
+    font-family: "Merriweather Sans";
+    color: #f7f9f7;
+    top: 8%;
+    left: 5%;
+    z-index: -2;
+  }
+  #about-table {
+    width: 80%;
+    margin:120px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse; /*ひっくり返すコマンド*/
+  }
+  #about-left {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+  }
+  #about-title {
+    font-size: 24px;
+    color: #1B9240;
+    line-height: 1.2em;
+  }
+  #about-message {
+    margin-top: 20px;
+    line-height: 1.8em;
+    width: 70%;
+  }
+  #about-comment {
+    width: 80%;
+    text-align: left;
+    margin-top: 20px;
+  }
+  #about-link{
+    width: 80%;
+    text-align: right;
+    margin-top: 50px;
+  }
+
+  /* ナビゲーションのリンクの装飾設定 */
+  .links > a {
+    text-decoration: none;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 7px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 50px;
+  }
+  .links > a:link {color: #000000;}
+  .links > a:visited {color:  #000000;}
+  .links > a:hover {color: #0C4324; }
+  .links > a:active {
+    border: 1px solid #0C4324;
+    color:  #ffffff; 
+    background-color: #0C4324;
+    }
+
+  #about-img {
+    vertical-align: top;
+  }
+
+
+/* コース・料金の設定 ***********************************************************/
+  #course {
+    position: relative;
+    width: 100%;
+    /* height: 850px; */
+    text-align: center;
+    padding: 70px 0 150px 0;
+
+  }
+  #course-background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F0F5E1;
+    z-index: -3;
+  }
+  .course-bigicon {
+    position: absolute;
+    right: 0;
+    bottom: 5%;
+    z-index: -1;
+  }
+  #h1-back {
+    position: absolute;
+    font-size: 133.94px;
+    font-family: "Merriweather Sans";
+    color: #EBF0DC;
+    top: 8%;
+    left: 5%;
+    z-index: -2;  
+  }
+  /* テーブル関係 */
+  #course-table {
+    margin: 80px auto;
+  }
+  .course-img {
+    width: 90%;
+    border-radius: 5%;
+    margin: 0 0;
+  }
+  .list-name {
+    margin: 20px 0 10px 0;
+  }
+  .course-list {
+    text-align: left;
+    margin: 0 40px;
+    line-height: 2em;
+  }
+  /* リンク関係 */
+  #course-link{
+    position: relative;
+    margin: 0px auto 0 auto;
+    z-index: 100;
+  }
+
+/* お客様の声の設定 ***********************************************************/
+  #voice {
+    position: relative;
+    width: 100%;
+    text-align: center;
+  }
+  #bottom-img-pc {
+    display: block;
+  }
+  #bottom-img-sp {
+    display: none;
+  }
+  #voice-title-box {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    left: 0;
+    right: 0;
+    top: -100px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    clip-path: circle(300px at 50% 150%);
+    z-index: 10;
+  }
+  #voice-title {
+    position: absolute;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    top: 60px;
+  }
+  /* テーブル内設定 */
+  #voice-table {
+    position: relative;
+    top: -30px;
+    width: 80%;
+    margin: 0px auto 0 auto;
+    table-layout: fixed;
+  }
+  .voice-table-items {
+    vertical-align: top;
+  }
+  .voice_img {
+    width: 95%;
+    border-radius: 50%;
+  }
+  .voice-table-items > h3 {
+    margin: 30px 0;
+  }
+  .voice-table-items > p {
+    text-align: left;
+    margin: 0 40px;
+  }
+  #voice-link {
+    margin: 80px auto 0px auto;
+  }
+
+
+}
+
+
+

@@ -1,0 +1,264 @@
+/* ********************************************************** */
+/* PCの設定 */
+@media screen and (min-width: 768px){
+  /************************************************************/
+
+/* アクセスの設定 ***********************************************************/
+#access {
+  position: relative;
+  width: 100%;
+  background-color: #F0F5E1;
+}
+#access-title-box {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+#access-title {
+  position: absolute;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+#access-table {
+  width: 80%;
+  margin: 30px auto 0 auto;
+}
+#access-left {
+  width: 40%;
+  vertical-align: top;
+}
+.access-left-info {
+  text-align: left;
+  margin: 30px 0;
+}
+#access-schedule {
+  text-align: left;
+  width: 100%;
+}
+#access-schedule tr th {
+  color: #ffffff;
+  background-color: #468459;
+  text-align: center;
+}
+#access-schedule tr td {
+  color: #468459;
+  background-color: #ffffff;
+  text-align: center;
+}
+.access-time {
+  width: 120px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#access-link {
+  width: 100%;
+  text-align: right;
+}
+#access-link > a {
+  text-decoration: none;
+  border: 1px solid #468459;
+  color: #ffffff;
+  border-radius: 7px;
+  padding: 10px 15px 10px 15px;
+  background-color: #468459;
+  line-height: 80px;
+}
+#access-link > a:link {color: #ffffff;}
+#access-link > a:visited {color:  #ffffff;}
+#access-link > a:hover {color: #0C4324 }
+#access-link > a:active {
+  border: 1px solid #468459;
+  color:  #468459; 
+  background-color: #ffffff;
+  }
+  #access-map {
+    text-align: center;
+  }
+  #access-map iframe {
+    width: 80%;
+  }
+
+/* Footerの設定 ***********************************************************/
+footer {
+  background-color: #F0F5E1;
+  position: relative;
+  width: 100%;
+}
+#footer-nav {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding: 100px 0 50px 0;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+}
+#footer-nav-pc {
+  display: flex;
+  width: 60%;
+  color: #ffffff;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+#menu-nav-pc-2 {
+padding: 0;
+}
+.menu-item {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+.menu-item > a {
+  text-decoration: none;
+  color: #000000;
+}
+.menu-item > a:link {color: #000000;}
+.menu-item > a:visited {color:  #000000;}
+.menu-item > a:hover {color: #1B9240;}
+.menu-item > a:active {color:  #000000;}
+
+#footer-bottom {
+  width: 100%;
+  background-color: #1B9240;
+  color:#ffffff;
+  text-align: center;
+}
+
+}
+
+
+/* ********************************************************** */
+/* スマホの設定 */
+@media screen and (max-width: 767px){
+  /************************************************************/
+
+/* アクセスの設定 ***********************************************************/
+#access {
+  width: 100%;
+  background-color: #F0F5E1;
+}
+#access-title-box {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+#access-title {
+  position: absolute;
+  margin-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+#access-table {
+  width: 90%;
+  margin: 30px auto 0 auto;
+}
+#access-left {
+  display: block;
+  width: 100%;
+}
+.access-left-info {
+  margin: 30px 0;
+  text-align: left;
+}
+#access-schedule {
+  width: 100%;
+}
+#access-schedule tr th {
+  color: #ffffff;
+  background-color: #468459;
+  text-align: center;
+}
+#access-schedule tr td {
+  color: #468459;
+  background-color: #ffffff;
+  text-align: center;
+}
+.access-time {
+  width: 120px;
+}
+
+/* ナビゲーションのリンクの装飾設定 */
+#access-link {
+  width: 100%;
+  padding: 15px 0;
+  border-radius: 7px;
+  background-color: #468459;
+  border: 1px solid #468459;
+  text-align: center;
+}
+#access-link > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#access-link > a:link {color: #ffffff;}
+#access-link > a:visited {color:  #ffffff;}
+#access-link > a:hover {color: #0C4324 }
+#access-link > a:active {
+  border: 1px solid #468459;
+  color:  #468459; 
+  background-color: #ffffff;
+  }
+
+#access-map {
+  display: block;
+  margin-top: 50px;
+  width: 100%;
+}
+#access-map iframe {
+  width: 100%;
+  height: 300px;
+}
+
+/* Footerの設定 ***********************************************************/
+footer {
+  background-color: #F0F5E1;
+  position: relative;
+  width: 100%;
+}
+#footer-nav {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  padding: 70px 0 50px 0;
+  text-align: center;
+}
+#footer-nav-pc {
+  width: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+  text-align: center;
+}
+#footer-nav-pc >div>ul {
+  padding: 0;
+}
+#footer-nav-pc >div>ul >li{
+  display: list-item;
+  list-style-type: none;
+  padding: 0;
+  line-height: 3em;
+}
+
+
+/* ナビゲーションのリンクの装飾設定 */
+#footer-nav-pc >div>ul>li> a {
+  text-decoration: none;
+  color: #000000;
+}
+#footer-nav-pc >div>ul>li> a:link {color: #000000;}
+#footer-nav-pc >div>ul>li> a:visited {color:  #000000;}
+#footer-nav-pc >div>ul>li> a:hover {color: #1B9240;}
+#footer-nav-pc >div>ul>li> a:active {color:  #000000;}
+
+#footer-bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0 5px 0;
+  background-color: #1B9240;
+  color:#ffffff;
+  text-align: center;
+}
+
+}
