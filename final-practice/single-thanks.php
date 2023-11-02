@@ -25,12 +25,12 @@ Template Name: 確認画面 (Thanks)
 
     <div id="top-img-div">
       <div id="back-img"></div>
-      <picture id="top-img-pct">
+      <div id="top-img-pct">
       <!-- SP時画像 -->
-      <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/SP-Reserve.jpg" alt="Reserve-img">
+      <img id="top-img-sp" src="<?php echo get_template_directory_uri(); ?>/images/SP-Reserve.jpg" alt="Reserve-img">
       <!-- PC時画像 -->
-      <img src="<?php echo get_template_directory_uri(); ?>/images/Reserve.jpg" alt="Reserve-img">
-      </picture>
+      <img id="top-img-pc" src="<?php echo get_template_directory_uri(); ?>/images/Reserve.jpg" alt="Reserve-img">
+      </div>
     </div>
 
     <img id="back-green02" src="<?php echo get_template_directory_uri(); ?>/images/x32_1.png" alt="back-green02">

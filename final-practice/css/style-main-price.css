@@ -83,6 +83,7 @@
   width: 74%;
   margin:50px auto 50px 200px;
   display: flex;
+  flex-direction: row-reverse; 
 }
   #selfpay-left {
     position: relative;
@@ -125,7 +126,7 @@
 
 
 /* ********************************************************** */
-/* PCの設定 */
+/* スマホの設定 */
 @media screen and (max-width: 767px){
   /************************************************************/
   

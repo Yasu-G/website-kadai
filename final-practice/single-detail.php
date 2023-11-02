@@ -25,12 +25,12 @@ Template Post Type: post
 
     <div id="top-img-div">
       <div id="back-img"></div>
-      <picture id="top-img-pct">
+      <div id="top-img-pct">
       <!-- SP時画像 -->
-      <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/SP-News.jpg" alt="News-img">
+      <img id="top-img-sp" src="<?php echo get_template_directory_uri(); ?>/images/SP-News.jpg" alt="News-img">
       <!-- PC時画像 -->
-      <img src="<?php echo get_template_directory_uri(); ?>/images/News.jpg" alt="News-img">
-      </picture>
+      <img id="top-img-pc" src="<?php echo get_template_directory_uri(); ?>/images/News.jpg" alt="News-img">
+      </div>
     </div>
     
     <img id="back-green02" src="<?php echo get_template_directory_uri(); ?>/images/x32_1.png" alt="back-green02">
@@ -77,6 +77,21 @@ Template Post Type: post
 
           <?php endwhile; ?>
         <?php endif; ?>
+
+        <!-- ページネーション **********************************************************--> 
+        <div class="detail-pagination">
+          <div>
+            <div class="before-info">
+              <?php previous_post_link('< %link', '前の記事へ'); ?>
+            </div>
+            <div class="to-info">
+              <a href="<?php echo esc_url( home_url( '/information/' ) ); ?>">お知らせ一覧</a>
+            </div>
+            <div class="next-info">
+              <?php next_post_link('%link >', '次の記事へ'); ?>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div id="detail-side">
@@ -87,24 +102,7 @@ Template Post Type: post
     </div>
   </section>
 
-<!-- ページネーション **********************************************************--> 
-  <section class="detail-pagination">
 
-  <div>
-    <div class="before-info">
-      <?php previous_post_link('< %link', '前の記事へ'); ?>
-    </div>
-
-    <div class="to-info">
-      <a href="<?php echo esc_url( home_url( '/information/' ) ); ?>">お知らせ一覧</a>
-    </div>
-
-    <div class="next-info">
-      <?php next_post_link('%link >', '次の記事へ'); ?>
-    </div>
-
-  </div>
-  </section>
 
 
 <?php include ('unit-wave-parts.php'); ?>

@@ -25,12 +25,12 @@ Template Name: お客様の声 (voice)
 
     <div id="top-img-div">
       <div id="back-img"></div>
-      <picture id="top-img-pct">
+      <div id="top-img-pct">
       <!-- SP時画像 -->
-      <source media="(max-width: 767px)" srcset="<?php echo get_template_directory_uri(); ?>/images/SP_Voice1.jpg" alt="Voice-img">
+      <img id="top-img-sp" src="<?php echo get_template_directory_uri(); ?>/images/SP_Voice1.jpg" alt="Voice-img">
       <!-- PC時画像 -->
-      <img src="<?php echo get_template_directory_uri(); ?>/images/Voice1.jpg" alt="Voice-img">
-      </picture>
+      <img id="top-img-pc" src="<?php echo get_template_directory_uri(); ?>/images/Voice1.jpg" alt="Voice-img">
+      </div>
     </div>
 
     <img id="back-green02" src="<?php echo get_template_directory_uri(); ?>/images/x32_1.png" alt="back-green02">
